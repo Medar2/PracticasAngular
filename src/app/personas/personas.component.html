@@ -7,6 +7,10 @@
             <p>{{mensaje}}</p>
 
             <app-persona></app-persona>
+
+            <label>Título Persona: </label>
+            <input type="text" class="form-control" (input)= 'modificarTitulo($event)'>
+            {{titulo}}
         </div>
     </div>
 </div>
