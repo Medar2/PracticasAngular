@@ -10,4 +10,6 @@ import { Component } from '@angular/core';
     styles:['h1{color:blue;}']
 })
 
-export class PersonasComponent{}
+export class PersonasComponent{
+    deshabilitar= false;
+}
