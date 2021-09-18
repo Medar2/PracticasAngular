@@ -12,13 +12,9 @@ export class PersonasComponent{
     deshabilitar= false;
 
     mensaje = 'No se ha agregado ninguna persona';
-    titulo ='';
+    titulo ='Ingeniero';
+    
     agregarPersona(){
         this.mensaje = 'Persona agregada';    
-    }
-    
-    modificarTitulo(eventParam: Event){
-        console.log('Entrando a metodo modificar titulo')
-        this.titulo = (<HTMLInputElement>eventParam.target).value;
     }
 }
