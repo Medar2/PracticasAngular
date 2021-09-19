@@ -4,7 +4,7 @@
             <h1>Listado de Personas</h1>   
             <button class="btn btn-secundary" [disabled]= 'deshabilitar'
             (click)="agregarPersona()">Agregar Persona</button>         
-            <p>{{mensaje}}</p>
+            <p *ngIf= "mostrar">{{mensaje}} con el título de {{titulo}}</p>
 
             <app-persona></app-persona>
 
